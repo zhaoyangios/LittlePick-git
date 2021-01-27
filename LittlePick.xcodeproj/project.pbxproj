@@ -14,6 +14,7 @@
 		1ABA4F7625C141A300915012 /* LittlePick.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1ABA4F7425C141A300915012 /* LittlePick.xcdatamodeld */; };
 		1ABA4F7825C141A500915012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ABA4F7725C141A500915012 /* Assets.xcassets */; };
 		1ABA4F7B25C141A500915012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABA4F7925C141A500915012 /* LaunchScreen.storyboard */; };
+		1ABA4F8425C14B0400915012 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1ABA4F8325C14B0400915012 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1ABA4F7725C141A500915012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1ABA4F7A25C141A500915012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1ABA4F7C25C141A500915012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ABA4F8325C14B0400915012 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		1ABA4F5F25C141A300915012 = {
 			isa = PBXGroup;
 			children = (
+				1ABA4F8325C14B0400915012 /* .gitignore */,
 				1ABA4F6A25C141A300915012 /* LittlePick */,
 				1ABA4F6925C141A300915012 /* Products */,
 			);
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ABA4F8425C14B0400915012 /* .gitignore in Resources */,
 				1ABA4F7B25C141A500915012 /* LaunchScreen.storyboard in Resources */,
 				1ABA4F7825C141A500915012 /* Assets.xcassets in Resources */,
 				1ABA4F7325C141A300915012 /* Main.storyboard in Resources */,
@@ -300,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zy.LittlePick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zy.LittlePick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
